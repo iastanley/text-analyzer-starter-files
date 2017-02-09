@@ -18,11 +18,11 @@
                     <textarea cols="60" rows="20" id="user-text" name="user-text" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." required></textarea>
                 </div>
                 <div>
-                    <button type="submit">Analyze it!</button>
+                    <button class="js-submit" type="submit">Analyze it!</button>
                 </div>
             </form>
 
-            <dl class="hidden text-report">
+            <dl class="hidden text-report js-results">
                 <dt>Word count</dt>
                 <dd></dd>
 
@@ -39,6 +39,8 @@
     </div>
 
     <!-- link to jquery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- link to your app.js -->
+    <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
